@@ -1,0 +1,186 @@
+@font-face {
+    font-family: "Quicksand";
+    src: url("font/Quicksand-Medium.ttf");
+}
+
+@font-face {
+    font-family: "HoneyScript";
+    src: url("font/HoneyScript-Light.ttf");
+}
+
+* {
+    font-family: "Quicksand";
+    font-size: 14px;
+}
+
+.main-body {
+    background-image: url(resource/background-body.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    background-image: url(resource/logo.svg);
+    height: 100px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.title1 {
+    font-family: "HoneyScript";
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+.background {
+    background-image: url("resource/background.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.title2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.cart-icon {
+    background-image: url(resource/cartico.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.poster-img-1 {
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.poster-caption {
+    margin-bottom: 100px;
+}
+
+.poster-title {
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+}
+
+.poster-text {
+    font-size: 20px;
+    color: gray;
+}
+
+.poster-caption-1 {
+    margin-bottom: 100px;
+    margin-right: 70px;
+}
+
+.signOut {
+    cursor: pointer;
+}
+
+.pm {
+    height: 65px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* width: 65px; */
+}
+
+.pm1 {
+    background-image: url(resource/payment_method_images/visa_img.png);
+}
+
+.pm2 {
+    background-image: url(resource/payment_method_images/american_express_img.png);
+}
+
+.pm3 {
+    background-image: url(resource/payment_method_images/mastercard_img.png);
+}
+
+.pm4 {
+    background-image: url(resource/payment_method_images/paypal_img.png);
+}
+
+.singleProduct {
+    padding-top: 65px;
+    padding-bottom: 145px;
+    padding: 20px;
+}
+
+.main-img {
+    height: 545px;
+    background-image: url("resource/empty.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.product-qty {
+    width: 105px;
+    height: 45px;
+    padding: 10px;
+}
+
+.qty-buttons {
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 30px;
+    border: solid 1px rgb(72, 71, 71);
+}
+
+.qty-inc,
+.qty-dec {
+    width: 100%;
+    height: 50%;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.qty-inc {
+    border-top-right-radius: 5px;
+}
+
+.qty-dec {
+    border-bottom-right-radius: 5px;
+}
+
+.emptyview {
+    height: 300px;
+    background-image: url(resource/watchlistEmptyView.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.emptycart {
+    height: 400px;
+    background-image: url(resource/emptycart.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.invoiceHedearImage {
+    height: 80px;
+    background-image: url(resource/logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.chat_box {
+    height: 510px;
+    overflow-y: scroll;
+}
+
+.first-place {
+    height: 45px;
+    background-image: url(resource/1st_place.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
